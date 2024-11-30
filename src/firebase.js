@@ -3,7 +3,7 @@ import { initializeApp } from 'firebase/app';
 /*import { getAnalytics } from 'firebase/analytics';*/ /*ANALYTICS DISABLED - TO-DO*/
 import { getFirestore } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
-import { REACT_APP_API_KEY, REACT_APP_AUTH_DOMAIN, REACT_APP_PROJECT_ID, REACT_APP_STORAGE_BUCKET, REACT_APP_MESSAGING_SENDER_ID, REACT_APP_APP_ID, REACT_APP_MEASUREMENT_ID } from 'react-dotenv';
+import { REACT_APP_API_KEY, REACT_APP_AUTH_DOMAIN, REACT_APP_PROJECT_ID, REACT_APP_STORAGE_BUCKET, REACT_APP_MESSAGING_SENDER_ID, REACT_APP_APP_ID, REACT_APP_MEASUREMENT_ID } from 'react-native-dotenv';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
