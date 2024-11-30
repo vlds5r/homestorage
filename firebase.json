@@ -1,0 +1,20 @@
+{
+  "hosting": {
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "predeploy": "npm ci && npm run build --ignore-warnings",
+    "env": {
+      "CI": "false"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-123",
+    "object": "chat.completion",
+    "created": 1697048962,
+    "model": "gpt-3.5-turbo",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Recepty, které můžete vytvořit s těmito ingrediencemi:\n\n1. **Brambory s hovězím masem**\n   - Ingredience: Brambory, Hovězí maso, Mrkev\n\n2. **Jablečný dezert s jogurtem**\n   - Ingredience: Jablko, Jogurt, Smetana\n\n3. **Vepřové na smetaně**\n   - Ingredience: Vepřové maso, Smetana, Brambory"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 60,
+      "completion_tokens": 150,
+      "total_tokens": 210
+    }
+  }
